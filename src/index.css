@@ -1,0 +1,52 @@
+.count {
+  font-size: 10rem;
+  color: rgb(42, 133, 42);
+  font-weight: semi-bold;
+}
+
+.appi {
+  display: "flex";
+  flex-direction: column;
+  align-items: "center";
+  justify-content: "center";
+}
+
+.ButtonHere {
+  width: 50%;
+  height: 2rem;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 3px;
+  border-width: 1px;
+  box-shadow: 10px 2px 2px 1px rgba(rgb(60, 60, 60));
+}
+
+.ButtonHere:active {
+  cursor: pointer;
+  background-color: #ff3030;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+.ButtonHere:hover {
+  cursor: pointer;
+  background-color: #d8d8d8;
+  border-radius: 3px;
+  border-width: 1.1px;
+  transform: scale(1.1);
+  box-shadow: 1px 2px 1px rgba(rgba(60, 60, 60, 0.274));
+}
+
+.ButtonHere::before {
+  cursor: pointer;
+  background-color: #ffe1e1;
+  border-radius: 3px;
+  border-width: 1.5px;
+}
+
+.ButtonHere::after {
+  cursor: pointer;
+  background-color: #d5d5d5;
+  border-radius: 3px;
+  border-width: 1.5px;
+}
