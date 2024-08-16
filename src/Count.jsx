@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 export default function Count({ number }) {
   // const value = 5;
-  const text = `This is your ${number}`;
+  const text = `This is your value ${number}`;
 
   useEffect(() => {
     document.title = `Your Number is ${number} Times`;
